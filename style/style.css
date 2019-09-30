@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
 /*end font - END*/
 
 /*style untuk selector-body*/
@@ -56,11 +57,12 @@ a:visited {
 }
 /*footer begin*/
 .footer {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Overpass Mono', monospace;
     color: black;
     padding: 10px;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
+    letter-spacing: 10px;
 }
 /*footer end*/
 
