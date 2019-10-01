@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
 /*end font - END*/
 
 /*style untuk selector-body*/
@@ -11,12 +14,31 @@ body {
     background-color: lightcoral;
     background-position-x: 0in;
 }
-/*style untuk heading - begin*/
+/*style untuk isi - begin*/
+h1 {
+    color: black;
+    font-family:'Sacramento', cursive;
+    text-align: left;
+    padding: 20px; 
+}
+h2 {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-align: left;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    font-size: xx-large;
+}
 h3 {
     color: black;
-    font-family: 'Cantata One', serif;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: left;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-left: 15px;
 }
-/*style untuk heading - end*/
+
+/*style untuk isi - end*/
 
 /*style untuk link - begin*/
 a:link {
@@ -33,22 +55,39 @@ a:visited {
 
 /*style berbentuk class - begin */
 .container {
-    background-color: white
+    background-color: white;
 }
 .container1 {
     text-shadow: white;
     text-align: left;
     background-size: 100px;
 }
+.container2 {
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+}
 .container-full {
     background-color:lightgray;
+}
+.container-img {
+    background-image: url(../image/pattern.png);
+    background-size: cover;
+    border-radius: 8px 8px 8px 8px;
+}
+.container-img1 {
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
 }
 .position {
     text-align: center;
     font-size: large;
 }
 .position1 {
-    text-decoration-color: yellow;
+   text-align: center;
+}
+.position2 {
+    text-align: left;
 }
 .font {
     font-family:'Sacramento', cursive;
@@ -63,6 +102,10 @@ a:visited {
     font-size: 15px;
     text-align: center;
     letter-spacing: 10px;
+}
+.footer1 {
+    font-family: 'NTR', sans-serif;
+    font-size: medium;
 }
 /*footer end*/
 
@@ -171,13 +214,15 @@ a:visited {
 .jumbotron h3 {
     font-size: 20px;
     padding: 0 20px;
+    letter-spacing: 2px;
+    font-style: italic;
 }
 /*jumbotron - END*/
 /*start box*/
 .box-heading {
-    background-color: #f6f8fa;
+    background-color: #eaecef;
     border: 1px solid #d1d5da;
-    border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 3px 3px;
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -200,3 +245,10 @@ a:visited {
     text-align: left;
     letter-spacing: 1px;
 }
+/*end copyright*/
+/*start main*/
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+/*end main*/
