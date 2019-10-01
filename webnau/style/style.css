@@ -1,0 +1,254 @@
+/*start font - BEGIN*/
+@import url('https://fonts.googleapis.com/css?family=Cantata+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+/*end font - END*/
+
+/*style untuk selector-body*/
+body {
+    background-color: lightcoral;
+    background-position-x: 0in;
+}
+/*style untuk isi - begin*/
+h1 {
+    color: black;
+    font-family:'Sacramento', cursive;
+    text-align: left;
+    padding: 20px; 
+}
+h2 {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-align: left;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+h3 {
+    color: black;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: left;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+/*style untuk isi - end*/
+
+/*style untuk link - begin*/
+a:link {
+    color: black;
+}
+a:hover{
+    color: lightslategrey;
+}
+a:visited {
+    color: black;
+}
+
+/*style untuk link - end*/
+
+/*style berbentuk class - begin */
+.container {
+    background-color: white;
+}
+.container1 {
+    text-shadow: white;
+    text-align: left;
+    background-size: 100px;
+}
+.container2 {
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+}
+.container-full {
+    background-color:lightgray;
+}
+.container-img {
+    background-image: url(../image/pattern.png);
+    background-size: cover;
+    border-radius: 8px 8px 8px 8px;
+}
+.container-img1 {
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+}
+.position {
+    text-align: center;
+    font-size: large;
+}
+.position1 {
+   text-align: center;
+}
+.position2 {
+    text-align: left;
+}
+.font {
+    font-family:'Sacramento', cursive;
+    color: black;
+    font-size: 300cm;
+}
+/*footer begin*/
+.footer {
+    font-family: 'Overpass Mono', monospace;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.footer1 {
+    font-family: 'NTR', sans-serif;
+    font-size: medium;
+}
+/*footer end*/
+
+/*style berbentuk class - end */
+/*start logo*/
+.logo { 
+    text-align: center;
+}
+/*end logo*/
+/* menu header - begin */
+.menu-header {
+    background-color: lightslategray;
+    border-radius: 40px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0 , 0.14),
+        0 1px 18px rgba(0, 0, 0 , 0.12);
+    }
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: aqua;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: honeydew;
+}
+/* menu header - end */
+
+/*start menu sekunder*/
+.menu-sekunder {
+    background-color: #f6f8f6;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    position: center;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder-one{
+    float: none;
+}
+
+/*end menu sekunder*/
+/*main content - BEGIN*/
+.cardhome {
+    background-image: url(../image/pattern.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    letter-spacing: 5px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.cardhead {
+    border-bottom: solid 1px lightyellow;
+    padding: 10px 0px;
+}
+.cardhead h3 {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Cantata One', serif;
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p {
+    font-family: 'Cantata One', serif;
+    font-size: 16px;
+}
+.cardflex {
+    display: flex;
+    justify-content: space-between;
+}
+/*main content - END*/
+/*jumbotron - BEGIN*/
+.jumbotron {
+    margin-top: 20px;
+    background-image: url(../image/yy.png);
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+/*jumbotron - END*/
+/*start box*/
+.box-heading {
+    background-color: #eaecef;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*end box*/
+/*start copyright*/
+.copyright {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    letter-spacing: 1px;
+}
+/*end copyright*/
+/*start main*/
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+/*end main*/
